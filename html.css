@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(to right, rgba(106, 17, 203, 0.7), rgba(37, 117, 252, 0.7)), url('images/crypto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+.char{
+    width: 30rem; 
+    height: 65rem; 
+    position: relative;
+    background-image: radial-gradient(circle, rgba(0, 0, 255, 0.74),rgba(0, 0, 0, 0.575)), url('images/coins.jpg');
+    margin-top: 60px;
+    color:white;
+    
+
+}
+
+.col-md-6{
+    background-image: radial-gradient(circle, rgba(0, 0, 255, 0.795),rgba(0, 0, 0, 0.753)), url('images/lend.jpg');
+    width: 30rem;
+    height: 70rem; 
+    color: white;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    position: relative;
+    
+}
+
+.col-md-3{
+    width: 30rem;
+    height: 70rem; 
+    border: 1px;
+    background-image: radial-gradient(circle, rgba(0, 0, 255, 0.74),rgba(0, 0, 0, 0.575)), url('images/coins.jpg');
+    position:relative;
+    margin-top: 10px;
+    color: white;
+
+}
+
+#box{
+    width:250%;
+    max-width:600px;
+    height:54.5rem;
+    overflow-y:auto;
+    padding:20%;
+    border-radius: 10px;
+    position:absolute;
+}
+@media (max-width: 768px) {
+    .scroll-box {
+        width: 50%;
+        height: 300px;
+    }
+}
+
+.price-info{
+    display:inline-flex;
+    justify-content:space-between;
+    width: 120px;
+    color:white
+}
+
+.price-label{
+    color: white;
+    font-weight: bold;
+    min-width: 5px;
+}
+
+.price-value{
+    text-align:left;
+}
+
+.red{
+    color: red;
+}
+.green{
+    color:green;
+}
+
+#coin-details{
+    position: relative;
+    display: block;
+    overflow-y:auto;
+    top:0;
+    z-index: 30;
+    width: 100;
+}
+.formOutput{
+    position: relative;
+}
+.chain{
+    width:250%;
+    max-width:600px;
+    height:54.5rem;
+    overflow-y:auto;
+    padding:20%;
+    border-radius: 10px;
+    position:absolute;
+
+}
+@media (max-width: 768px){
+    .scroll-chain {
+        width: 50%;
+        height: 300px;
+    }
+}
+.block{
+    width: 300px;
+    height: 850px;
+    display: block;
+    color: white;
+    position: fixed;
+    background-image: radial-gradient(circle, rgba(0, 0, 255, 0.582),rgba(0, 0, 0, 0.466)), url('images/cj.jpg');
+    z-index: -1;
+}
